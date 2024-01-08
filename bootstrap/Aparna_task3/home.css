@@ -1,0 +1,103 @@
+body {
+    overflow-x: hidden;
+}
+#introCarousel,
+.carousel-inner,
+.carousel-item,
+.mask,
+.carousel-item.active {
+    height: 60vh;
+}
+
+.carousel-item:nth-child(1) {
+    background-image: url('https://images.healthshots.com/healthshots/en/uploads/2022/03/13201300/protein-foods-1600x900.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-item:nth-child(2) {
+    background-image: url('https://www.hsph.harvard.edu/nutritionsource/wp-content/uploads/sites/30/2018/11/shutterstock_723278326-1024x753.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-item:nth-child(3) {
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-fashion-food-poster-background-image_159294.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Custom round indicators */
+.custom-indicators {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.custom-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.custom-indicator.active {
+    background-color: #007bff; 
+}
+
+/* Team Cards */
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    flex: 0 0 30%;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.card-img-top{
+    
+    width: 90%; 
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+}
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    background-color: #f8f9fa;
+}
+
+.about-content {
+    flex: 0 0 60%;
+}
+
+.about-image {
+    flex: 0 0 35%;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+

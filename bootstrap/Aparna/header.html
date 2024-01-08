@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar header</title>
+    <link
+      rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      />
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+
+  
+    <style>
+      img.rounded-circle {
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <nav
+      class="navbar navbar-expand-lg sticky-top navbar-light"
+      style="background-color: #cde2ab"
+    >
+      <a class="navbar-brand" href="home.html">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4tUnFBvn3ozKbiBPphpxKNov86osRErLNnA&usqp=CAU"
+          width="30"
+          height="30"
+          class="d-inline-block align-top rounded-circle"
+          alt="QuiHealthy"
+        />
+        QuiHealthy
+      </a><div class="form-check form-switch ms-auto mt-3 me-3">
+        <label class="form-check-label ms-3" for="lightSwitch">
+          <svg 
+            xmlns="http://www.w3.org/2000/svg"
+            width="25"
+            height="25"
+            fill="currentColor"
+            class="bi bi-brightness-high"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"
+            />
+          </svg>
+        </label>
+        <input class="form-check-input" type="checkbox" id="lightSwitch" />
+      </div>
+     
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <!-- "ms-auto" pushes the items to the right -->
+          <a class="nav-item nav-link " href="home.html">Home</a>
+          <a class="nav-item nav-link" href="about.html">About</a>
+          <a class="nav-item nav-link" href="menu.html">Menu</a>
+          <a class="nav-item nav-link" href="contact.html">Contact</a>
+        </div>
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="login.html">
+            <button type="button" class="btn btn-outline-success">Login</button>
+          </a>
+          <a class="nav-item nav-link" href="registration.html">
+            <button type="button" class="btn btn-success">Sign Up</button>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
